@@ -1,0 +1,28 @@
+{
+  "_comment": "Copy this to .mcp.json and fill in your credentials. Do NOT commit .mcp.json — it's gitignored.",
+  "mcpServers": {
+    "assemblyai": {
+      "command": "npx",
+      "args": ["-y", "assembly-ai-mcp@latest"],
+      "env": {
+        "ASSEMBLYAI_API_KEY": "${ASSEMBLYAI_API_KEY}"
+      }
+    },
+    "wordpress": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-wordpress"],
+      "env": {
+        "WORDPRESS_URL": "https://your-site.com",
+        "WORDPRESS_USERNAME": "your-username",
+        "WORDPRESS_APP_PASSWORD": "your-app-password"
+      }
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-notion"],
+      "env": {
+        "NOTION_API_KEY": "your-notion-integration-token"
+      }
+    }
+  }
+}

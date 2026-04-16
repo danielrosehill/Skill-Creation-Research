@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.local
+
+# Private researcher notes (never commit)
+private/*
+!private/.gitkeep
+
+# MCP configuration (contains credentials)
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# PDF generation artifacts
+*.aux
+*.log
+*.toc
