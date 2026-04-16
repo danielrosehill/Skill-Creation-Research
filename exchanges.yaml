@@ -1,0 +1,13 @@
+# Research exchange log — auto-maintained, do not edit manually
+exchanges:
+  - id: 1
+    date: "2026-04-16"
+    prompt_path: "prompts/run/initial/2026-04-16-cross-agent-skills.md"
+    prompt_summary: "How to author agent skills once and distribute them across Claude Code, Cursor, Cline, Codex, Copilot and others via a single marketplace-style repo."
+    output_path: "outputs/individual/2026-04-16-cross-agent-skill-portability.md"
+    exchange_in_file: 1
+    thread: "2026-04-16-cross-agent-skill-portability"
+    tools_used:
+      - web_search
+      - document_analysis
+      - reasoning
