@@ -11,3 +11,16 @@ exchanges:
       - web_search
       - document_analysis
       - reasoning
+
+  - id: 2
+    date: "2026-04-16"
+    prompt_path: "prompts/run/initial/2026-04-16-public-private-marketplace.md"
+    prompt_summary: "Running a public Claude Code plugin marketplace alongside a private one without maintaining two parallel ecosystems, and whether the same source-of-truth can feed non-Claude agents."
+    output_path: "outputs/individual/2026-04-16-public-private-marketplace-coexistence.md"
+    exchange_in_file: 1
+    thread: "2026-04-16-public-private-marketplace-coexistence"
+    tools_used:
+      - web_search
+      - web_fetch
+      - document_analysis
+      - reasoning
